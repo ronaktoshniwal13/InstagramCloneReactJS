@@ -1,0 +1,267 @@
+*{
+    color:black;
+    
+}
+.subMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-color:rgb(250, 246, 246);
+    max-width:100vw;
+    height:100vh;
+    
+            
+  }
+  .right{
+      display:block;
+      width: 50vw;
+      height: 100vh;
+      float: right;
+      left: -170px;
+      position:relative;
+      padding-top:70px;
+      
+  }
+  
+
+
+
+        
+.loginForm{
+  display:grid; 
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  border: 1px solid rgb(219, 216, 216);
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  margin-left: 25%;
+  padding-top:20px;
+  
+}
+.logo{
+    position:absolute;
+    height: 50px;
+    
+    justify-content: center;
+    left: 230px;
+}
+.inputBoxes{
+    padding-top:90px;
+}
+#text {
+    width:250px;
+    height: 40px;
+    margin-top: 10px; 
+    padding-left:10px;
+   /* padding-top: 20px;*/
+    background-color:#fafafa;
+    border: 1px solid silver;
+    border-radius: 3px;
+    font-size:10px;
+    position: relative;
+    
+}
+/*.userNameText{
+    z-index: 10000;
+    font-size: 09px;
+    position: relative;
+    top: 45px;
+    left:-20px;
+    color:silver;
+    <p className="userNameText">Phone number, username, or email</p>
+}
+*/
+::placeholder{
+    color:rgb(155, 155, 155);
+    font-size: 13px;
+}
+.btn {
+    background-color:#007bff;
+    width: 250px;
+    height: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-family: inherit;
+    margin-top: 10px;
+}
+
+.btnDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hrDiv {
+    
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color:rgb(155, 155, 155);
+    font-size: 12px;
+    font-weight:500;
+}
+.hr {
+    width:100px;
+    
+}
+
+.loginText {
+    color: #385185;
+    cursor: pointer;
+    font-weight: 600;
+    font-size:15px;
+}
+.forgotText{
+    color: #385185;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.signUpLink{
+    color:rgb(54, 180, 230);
+    font-weight: 600;
+    cursor: pointer;
+}
+.signUp{
+    margin-top: 10px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid rgb(219, 216, 216);
+    background-color:white;
+    width: 350px;
+    height: 70px;
+    margin-left: 25%;
+
+}
+.sign{
+    display:flex;
+
+}
+.signUpTexts {
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: 100;
+}
+.getApp{
+    font-size: 12px;
+    margin-top:20px;
+}
+.iconImg{
+    width:150px;
+    height:40px;
+    margin-left: 10px;
+}
+
+.linkText{
+    font-size: 12px;
+    font-weight: 600;
+    color:#193777;
+   
+
+}
+
+.container{
+    display: flex;
+}
+.row1{
+    width: 70%;
+    float: left;
+}
+
+.bottomLinks{
+    display: flex;
+  justify-content: space-around;
+    
+  
+   
+}
+.copyRight{
+    color:gray;
+    font-weight:600;
+    font-size: 10px;
+}
+.left{
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    padding-top:45px;
+    
+    }
+
+
+.mobileImg{
+    width: 63.5%;
+    height:91%;
+    left:36.5%;
+    float: right;
+    position: absolute;
+}
+.insideMobileImg{
+    width: 225px;
+    height: 415px;
+}
+
+.fadein {
+    top: 21.5%;
+    left: 57.6%;
+    float: right;
+    position: absolute;
+    
+}
+.fadein img {
+    position:absolute;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+#f1 {
+    -animation-delay: -10s;
+    
+}
+#f2 {
+    animation-delay: -8s;
+    
+}
+#f3 {
+    animation-delay: -6s;
+    
+}
+#f4 {
+    animation-delay: -4s;
+    
+}
+#f5 {
+    animation-delay: -2s;
+    
+}
+
+/* 
+                        <img src={first} alt="mobile" className="insideMobileImg" />
+                        <img src={second} alt="mobile" className="insideMobileImg" />
+                        <img src={third} alt="mobile" className="insideMobileImg" />
+                        <img src={fourth} alt="mobile" className="insideMobileImg" />
+                        <img src={fifth} alt="mobile" className="insideMobileImg" />
+*/
