@@ -1,3 +1,17 @@
+## NOTE
+This instagram clone is made using ReactJS.
+This clone has similar looking instagram login page. where login auth is not impletemented yet.
+when clicked login (no id pass needed) it will take to account page where by default see nav bar story section with 12 stories and latest 12 posts of user. To look for any user type the user name like "ronaktoshniwal.18" in search and press enter to find latest 12 posts of that user if user has private account it will show "THIS ACCOUNT IS PRIVATE" else show posts with image and likes on that particular post in instagram FEED form.
+with each post it has download button where that particular image can be downloaded.
+
+
+some styling and other small customisations are still pending.
+data is coming from facebook api
+USED AXIOS(Fetch Data) , MaterialUI for Icons.
+
+more changes will be coming in future versions like profile page clone and many more
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
